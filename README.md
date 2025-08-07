@@ -7,22 +7,22 @@ This project implements a personalized shoe recommendation system along with use
 
 The goal is to demonstrate proficiency in designing recommendation algorithms, generating synthetic data, analyzing user behavior, and designing a relational database schema to store and manage the information efficiently.
 Repository Structure
+| Folder/File        | Description                                     |
+|--------------------|------------------------------------------------|
+| **data/**          | Synthetic dataset CSV files                     |
+| &emsp;`shoe_catalog.csv`    | Shoe attributes dataset                          |
+| &emsp;`user_profiles.csv`   | User demographic and profile data                |
+| &emsp;`user_interactions.csv` | User interaction history                          |
+| **src/**           | Source code scripts                             |
+| &emsp;`data_prep.py`        | Dataset generation script                        |
+| &emsp;`recommend.py`        | Recommendation algorithm implementation         |
+| &emsp;`personalize.py`      | Personalized shoe care and replacement logic    |
+| **notebooks/**     | Jupyter notebooks for data exploration (optional) |
+| &emsp;`eda.ipynb`           | Exploratory data analysis notebook               |
+| **schema.sql**     | PostgreSQL database schema for data storage    |
+| **requirements.txt** | Python dependencies list                       |
+| **README.md**      | Project documentation (this file)               |
 
-text
-smart-shoe-recommender/
-├── data/                       # Synthetic dataset CSV files
-│   ├── shoe_catalog.csv        # Shoe attributes dataset
-│   ├── user_profiles.csv       # User demographic and profile data
-│   └── user_interactions.csv   # User interaction history
-├── src/                        # Source code scripts
-│   ├── data_prep.py            # Dataset generation script
-│   ├── recommend.py            # Recommendation algorithm implementation
-│   └── personalize.py          # Personalized shoe care and replacement logic
-├── notebooks/                  # Jupyter notebooks for data exploration (optional)
-│   └── eda.ipynb
-├── schema.sql                  # PostgreSQL database schema for data storage
-├── requirements.txt            # Python dependencies list
-└── README.md                   # Project documentation (this file)
 
 Dataset Description
 
